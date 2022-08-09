@@ -1,0 +1,61 @@
+body{
+    color: white;
+    font-family: var(--font-family);
+    
+    padding: 6px;
+    padding-bottom: 0px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    gap: 31px;
+    padding: 21px 150px 21px 150px;
+
+    background-image: var(--texture-wall-darker);
+    background-size: cover;
+}
+
+body *{
+    color: inherit;
+    font-family: inherit;
+}
+
+.margin-bottom{
+    margin-bottom: 4px;
+}
+
+.clients-list{
+    display: flex;
+    gap: 87px;
+
+    margin-top:43px;
+}
+
+.products-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+    justify-content: center;
+    gap: 48px;
+
+    width: 100%;
+    margin-top:43px;  
+}
+
+@media screen and (max-width: 1060px){
+    main{
+        padding:  20px;
+    }
+
+    .clients-list{
+        gap:40px
+    }
+}
+
+@media screen and (max-width: 600px){
+    .clients-list{
+        flex-direction: column;
+    }
+}

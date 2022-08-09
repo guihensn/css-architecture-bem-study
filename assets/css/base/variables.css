@@ -1,0 +1,20 @@
+:root{
+    --font-family: 'Akaya Kanadaka', cursive;
+
+    --title-size: 40px;
+    --size-title-mob: 36px;
+    --subtitle-size: 30px;
+    --text-size: 24px;
+    --text-descrition-size: 14px;
+
+    --light-gray: #E6E6E6;
+    --white: white;
+
+    --black: black;
+    --dark-transparent-lighter: #080101;
+    --dark-transparent-darker: #0801018e;
+
+    --texture-wall: url('../../images/wall-1.jpg');
+    --texture-wall-darker: url('../../images/wall-2.jpg');
+    --texture-glass: url('../../images/glass-texture.jpg');
+}
